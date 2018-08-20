@@ -78,7 +78,6 @@ for case_id in json_data:
         defendant_data = defendant_details[defendant_id]
 
         defendant_dict['id'].append(defendant_id)
-        defendant_dict['judge_id'].append(str(judge_id))
         defendant_dict['case_id'].append(case_id)
 
         summary_data = defendant_data['Summary']
