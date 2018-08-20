@@ -580,96 +580,97 @@ id,name,race,gender,tenure,appointed_by,case_id
 578,Leonie M. Brinkema,White,Female,1993,Democrat,810
 579,David Sam,White,Male,1985,Republican,1888
 580,James J. Brady,White,Male,1999,Democrat,1619
-581,"['Samuel H. Mays, Jr.', 'Samuel H. Mays, Jr']","['White', 'White']","['Male', 'Male']","['2002', '2002']","['Republican', 'Republican']",815
-582,Reed Charles O'Connor,White,Male,2007,Republican,1966
-583,James  C.  Mahan,,Male,2002,Republican,1942
-584,"Charles A. Pannell, Jr.",White,Male,1999,Democrat,1580
-585,Leigh Martin May,White,Female,2014,Democrat,1509
-586,Kathryn H. Vratil,White,Female,1992,Republican,1869
-587,Marcia G. Cooke,Black,Female,2004,Republican,1666
-588,Paul C. Huck,White,Male,2000,Democrat,1932
-589,Robert D. Mariani,White,Male,2011,Democrat,1546
-590,Michael H. Simon,White,Male,2011,Democrat,1910
-591,Xavier Rodriguez,Hispanic,Male,2003,Republican,1537
-592,Ann D. Montgomery,White,Female,1996,Democrat,1779
-593,Dora Lizette Irizarry,Hispanic,Female,2004,Democrat,1778
-594,Michael M. Anello,White,Male,2008,Republican,914
-595,,,,,,1771
-596,Virginia A. Phillips,White,Female,1999,Democrat,792
-597,Charles A. Shaw,Black,Male,1993,Democrat,1728
-598,David G. Larimer,White,Male,1987,Republican,1551
-599,Gerald Bruce Lee,Black,Male,1998,Democrat,1687
-600,Barbara S. Jones,White,Female,1995,Democrat,1556
-601,Charles N Clevert Jr,Black,Male,1996,Democrat,1491
-602,David Hittner,White,Male,1986,Republican,925
-603,David G. Larimer,White,Male,1987,Republican,1901
-604,Tania Walton Pratt,Black,Female,2010,Democrat,1949
-605,,,,,,1653
-606,Stanley R. Chesler,White,Male,2002,Republican,1947
-607,Liam O'Grady,White,Male,2007,Republican,1940
-608,James Lawrence King,White,Male,1970,Republican,1593
-609,Jane J. Boyle,White,Female,2004,Republican,1611
-610,Joan H. Lefkow,White,Female,2000,Democrat,1487
-611,Theresa L. Springmann,White,Female,2003,Republican,1657
-612,Michael H. Simon,White,Male,2011,Democrat,1830
-613,Douglas E. Miller,White,Male,2009,Democrat,1937
-614,Kimberly J. Mueller,White,Female,2010,Democrat,1480
-615,Hugh Lawson,White,Male,1995,Democrat,1836
-616,Karen E. Schreier,White,Female,1999,Democrat,1569
-617,Marcia Morales Howard,Hispanic,Female,2007,Republican,1764
-618,Robert A. Junell,Hispanic,Male,2003,Republican,1829
-619,William P. Dimitrouleas,White,Male,1998,Democrat,1576
-620,Janis L. Sammartino,White,Female,2007,Republican,1708
-621,John D. Bates,White,Male,2001,Republican,1920
-622,Sam R. Cummings,White,Male,1987,Republican,1579
-623,Joel H. Slomsky,White,Male,2008,Republican,1864
-624,Orlando L. Garcia,Hispanic,Male,1994,Democrat,1544
-625,Susan Oki Mollway,Asian,Female,1998,Democrat,813
-626,Lawrence J. O'Neill,White,Male,2007,Republican,1746
-627,Karen E. Schreier,White,Female,1999,Democrat,1845
-628,Lynn Adelman,White,Male,1997,Democrat,1540
-629,Benjamin H. Settle,White,Male,2007,Republican,1743
-630,Liam O'Grady,White,Male,2007,Republican,1971
-631,John Gleeson,White,Male,1994,Democrat,1588
-632,S. James Otero,Hispanic,Male,2003,Republican,1616
-633,"Frank P. Geraci, Jr.",White,Male,2013,Democrat,1693
-634,Marco A. Hernandez,Hispanic,Male,2011,Democrat,1803
-635,Robert W. Gettleman,White,Male,1994,Democrat,1520
-636,Greg Kays,White,Male,2008,Republican,1802
-637,Leonie M. Brinkema,White,Male,1993,Democrat,1667
-638,David C. Godbey,White,Male,2002,Republican,926
-639,Ursula Ungaro,Hispanic,Female,1992,Republican,1921
-640,Edmund A. Sargus,White,Male,1996,Democrat,1502
-641,Jon Phipps McCalla,White,Male,1992,Republican,1488
-642,Richard J. Arcara,White,Male,1988,Republican,1875
-643,Janis L. Sammartino,White,Female,2007,Republican,1796
-644,Marilyn L. Huff,White,Female,1991,Republican,1740
-645,Amy Totenberg,White,Female,2011,Democrat,1597
-646,Francisco A. Besosa,Hispanic,Male,2006,Republican,1722
-647,Patrick Michael Duffy,White,Male,1995,Democrat,1885
-648,David G. Larimer,White,Male,1987,Republican,1718
-649,"Ernest Richard Webber, Jr. ",White,Male,1995,Democrat,1911
-650,Kiyo A. Matsumoto,Asian,Female,2008,Republican,917
-651,Sara Lioi,White,Female,2007,Republican,1558
-652,Gary A. Feess,White,Male,1999,Democrat,811
-653,William Q. Hayes,White,Male,2003,Republican,1719
-654,Marco A. Hernandez,Hispanic,Male,2011,Democrat,1534
-655,"C Lynwood Smith, Jr.",White,Male,1995,Democrat,801
-656,Richard G. Andrews,White,Male,2011,Democrat,1838
-657,Robert Bryan Harwell,White,Male,2004,Republican,1808
-658,Jay A. Garcia-Gregory,Hispanic,Female,2000,Democrat,1630
-659,Kiyo A. Matsumoto,Asian,Female,2008,Republican,923
-660,J. Frederick Motz,White,Male,1985,Republican,1570
-661,Benjamin H. Settle,White,Male,2007,Republican,1640
-662,Janet Bond Arterton,White,Female,1995,Democrat,1519
-663,William P. Dimitrouleas,,Male,1998,Democrat,1801
-664,Edward J. Lodge,White,Male,1989,Republican,1872
-665,Robert N. Chatigny,White,Male,1994,Democrat,1583
-666,Paul L. Maloney,White,Male,2007,Republican,1645
-667,Stephen R. Bough,White,Male,2014,Democrat,1620
-668,I. Leo Glasser,White,Male,1981,Republican,803
-669,William E. Smith,White,Male,2002,Republican,1813
-670,Lawrence J. O'Neill,White,Male,2007,Republican,1828
-671,Timothy J. Corrigan,White,Male,2002,Republican,1783
-672,Charles R. Breyer,White,Male,1997,Democrat,1635
-673,William M. Skretny,White,Male,1990,Republican,1600
+581,"Samuel H. Mays, Jr.",White,Male,2002,Republican,815
+582,"Samuel H. Mays, Jr",White,Male,2002,Republican,815
+584,Reed Charles O'Connor,White,Male,2007,Republican,1966
+585,James  C.  Mahan,,Male,2002,Republican,1942
+586,"Charles A. Pannell, Jr.",White,Male,1999,Democrat,1580
+587,Leigh Martin May,White,Female,2014,Democrat,1509
+588,Kathryn H. Vratil,White,Female,1992,Republican,1869
+589,Marcia G. Cooke,Black,Female,2004,Republican,1666
+590,Paul C. Huck,White,Male,2000,Democrat,1932
+591,Robert D. Mariani,White,Male,2011,Democrat,1546
+592,Michael H. Simon,White,Male,2011,Democrat,1910
+593,Xavier Rodriguez,Hispanic,Male,2003,Republican,1537
+594,Ann D. Montgomery,White,Female,1996,Democrat,1779
+595,Dora Lizette Irizarry,Hispanic,Female,2004,Democrat,1778
+596,Michael M. Anello,White,Male,2008,Republican,914
+597,,,,,,1771
+598,Virginia A. Phillips,White,Female,1999,Democrat,792
+599,Charles A. Shaw,Black,Male,1993,Democrat,1728
+600,David G. Larimer,White,Male,1987,Republican,1551
+601,Gerald Bruce Lee,Black,Male,1998,Democrat,1687
+602,Barbara S. Jones,White,Female,1995,Democrat,1556
+603,Charles N Clevert Jr,Black,Male,1996,Democrat,1491
+604,David Hittner,White,Male,1986,Republican,925
+605,David G. Larimer,White,Male,1987,Republican,1901
+606,Tania Walton Pratt,Black,Female,2010,Democrat,1949
+607,,,,,,1653
+608,Stanley R. Chesler,White,Male,2002,Republican,1947
+609,Liam O'Grady,White,Male,2007,Republican,1940
+610,James Lawrence King,White,Male,1970,Republican,1593
+611,Jane J. Boyle,White,Female,2004,Republican,1611
+612,Joan H. Lefkow,White,Female,2000,Democrat,1487
+613,Theresa L. Springmann,White,Female,2003,Republican,1657
+614,Michael H. Simon,White,Male,2011,Democrat,1830
+615,Douglas E. Miller,White,Male,2009,Democrat,1937
+616,Kimberly J. Mueller,White,Female,2010,Democrat,1480
+617,Hugh Lawson,White,Male,1995,Democrat,1836
+618,Karen E. Schreier,White,Female,1999,Democrat,1569
+619,Marcia Morales Howard,Hispanic,Female,2007,Republican,1764
+620,Robert A. Junell,Hispanic,Male,2003,Republican,1829
+621,William P. Dimitrouleas,White,Male,1998,Democrat,1576
+622,Janis L. Sammartino,White,Female,2007,Republican,1708
+623,John D. Bates,White,Male,2001,Republican,1920
+624,Sam R. Cummings,White,Male,1987,Republican,1579
+625,Joel H. Slomsky,White,Male,2008,Republican,1864
+626,Orlando L. Garcia,Hispanic,Male,1994,Democrat,1544
+627,Susan Oki Mollway,Asian,Female,1998,Democrat,813
+628,Lawrence J. O'Neill,White,Male,2007,Republican,1746
+629,Karen E. Schreier,White,Female,1999,Democrat,1845
+630,Lynn Adelman,White,Male,1997,Democrat,1540
+631,Benjamin H. Settle,White,Male,2007,Republican,1743
+632,Liam O'Grady,White,Male,2007,Republican,1971
+633,John Gleeson,White,Male,1994,Democrat,1588
+634,S. James Otero,Hispanic,Male,2003,Republican,1616
+635,"Frank P. Geraci, Jr.",White,Male,2013,Democrat,1693
+636,Marco A. Hernandez,Hispanic,Male,2011,Democrat,1803
+637,Robert W. Gettleman,White,Male,1994,Democrat,1520
+638,Greg Kays,White,Male,2008,Republican,1802
+639,Leonie M. Brinkema,White,Male,1993,Democrat,1667
+640,David C. Godbey,White,Male,2002,Republican,926
+641,Ursula Ungaro,Hispanic,Female,1992,Republican,1921
+642,Edmund A. Sargus,White,Male,1996,Democrat,1502
+643,Jon Phipps McCalla,White,Male,1992,Republican,1488
+644,Richard J. Arcara,White,Male,1988,Republican,1875
+645,Janis L. Sammartino,White,Female,2007,Republican,1796
+646,Marilyn L. Huff,White,Female,1991,Republican,1740
+647,Amy Totenberg,White,Female,2011,Democrat,1597
+648,Francisco A. Besosa,Hispanic,Male,2006,Republican,1722
+649,Patrick Michael Duffy,White,Male,1995,Democrat,1885
+650,David G. Larimer,White,Male,1987,Republican,1718
+651,"Ernest Richard Webber, Jr. ",White,Male,1995,Democrat,1911
+652,Kiyo A. Matsumoto,Asian,Female,2008,Republican,917
+653,Sara Lioi,White,Female,2007,Republican,1558
+654,Gary A. Feess,White,Male,1999,Democrat,811
+655,William Q. Hayes,White,Male,2003,Republican,1719
+656,Marco A. Hernandez,Hispanic,Male,2011,Democrat,1534
+657,"C Lynwood Smith, Jr.",White,Male,1995,Democrat,801
+658,Richard G. Andrews,White,Male,2011,Democrat,1838
+659,Robert Bryan Harwell,White,Male,2004,Republican,1808
+660,Jay A. Garcia-Gregory,Hispanic,Female,2000,Democrat,1630
+661,Kiyo A. Matsumoto,Asian,Female,2008,Republican,923
+662,J. Frederick Motz,White,Male,1985,Republican,1570
+663,Benjamin H. Settle,White,Male,2007,Republican,1640
+664,Janet Bond Arterton,White,Female,1995,Democrat,1519
+665,William P. Dimitrouleas,,Male,1998,Democrat,1801
+666,Edward J. Lodge,White,Male,1989,Republican,1872
+667,Robert N. Chatigny,White,Male,1994,Democrat,1583
+668,Paul L. Maloney,White,Male,2007,Republican,1645
+669,Stephen R. Bough,White,Male,2014,Democrat,1620
+670,I. Leo Glasser,White,Male,1981,Republican,803
+671,William E. Smith,White,Male,2002,Republican,1813
+672,Lawrence J. O'Neill,White,Male,2007,Republican,1828
+673,Timothy J. Corrigan,White,Male,2002,Republican,1783
+674,Charles R. Breyer,White,Male,1997,Democrat,1635
+675,William M. Skretny,White,Male,1990,Republican,1600

@@ -52,16 +52,26 @@ for case_id in json_data:
     case_dict['n_females'].append(victim_details['Total Females'])
     case_dict['n_males'].append(victim_details['Total Males'])
 
-    case_dict['judge_id'].append(judge_id)
-
     # Build judge rows
-    judge_dict['id'].append(judge_id)
-    judge_dict['name'].append(judge_details['Name'])
-    judge_dict['race'].append(judge_details['Race'])
-    judge_dict['gender'].append(judge_details['Gender'])
-    judge_dict['tenure'].append(judge_details['Tenure'])
-    judge_dict['appointed_by'].append(judge_details['Appointed By'])
-    judge_dict['case_id'].append(case_id)
+    if type(judge_details['Name'])==list:
+        for j in range(len(judge_details['Name'])):
+            judge_dict['id'].append(judge_id)
+            judge_dict['name'].append(judge_details['Name'][j])
+            judge_dict['race'].append(judge_details['Race'][j])
+            judge_dict['gender'].append(judge_details['Gender'][j])
+            judge_dict['tenure'].append(judge_details['Tenure'][j])
+            judge_dict['appointed_by'].append(judge_details['Appointed By'][j])
+            judge_dict['case_id'].append(case_id)
+            judge_id += 1
+    else:
+        judge_dict['id'].append(judge_id)
+        judge_dict['name'].append(judge_details['Name'])
+        judge_dict['race'].append(judge_details['Race'])
+        judge_dict['gender'].append(judge_details['Gender'])
+        judge_dict['tenure'].append(judge_details['Tenure'])
+        judge_dict['appointed_by'].append(judge_details['Appointed By'])
+        judge_dict['case_id'].append(case_id)
+
 
     # Build defendant rows
     for defendant_id in defendant_details:
