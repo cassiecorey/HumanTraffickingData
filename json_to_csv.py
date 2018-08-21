@@ -11,6 +11,7 @@ import os,json
 import pandas as pd
 import numpy as np
 
+from re import sub
 from collections import defaultdict
 
 data_dir = 'data/'
@@ -27,6 +28,25 @@ judge_dict = defaultdict(list)
 # Creating ids for the judges ourselves since
 # they weren't given ids in the original data
 judge_id = 0
+
+def parse_money():
+    """Parses table, returns dict
+    """
+    keys = [th.string for th in soup_table.find_all('th')]
+    rows = soup_table.find_all('tr')
+    if len(rows) == 0 or len(rows)==1: # Assume table only has one row
+        col_data = soup_table.find_all('td')
+        if len(col_data)==0:
+            values = [None for k in keys]
+        else:
+            values = [col.string for col in col_data]
+        return dict(zip(keys,values))
+    else: # Table has several rows
+        col_data = [row.find_all('td') for row in rows]
+        result = {}
+        for i in range(len(keys)):
+            result[keys[i]] = [row[i].string for row in col_data]
+        return result
 
 for case_id in json_data:
     case_data = json_data[case_id]
@@ -90,7 +110,7 @@ for case_id in json_data:
         defendant_dict['arrest_date'].append(arrest_details['Arrest Date'])
         defendant_dict['charge_date'].append(arrest_details['Charge Date'])
         defendant_dict['bail_type'].append(arrest_details['Bail Type'])
-        defendant_dict['bail_amount'].append(arrest_details['Bail Amount'])
+        defendant_dict['bail_amount'].append(sub("[^\d\.]", "", str(arrest_details['Bail Amount']))) #scrub '$' and ',' from data
 
         statute_details = defendant_data['Statute Sentencing']
         defendant_dict['statute_sentence'].append(statute_details['Statute'])
@@ -100,7 +120,7 @@ for case_id in json_data:
         defendant_dict['statute_plea_guilty'].append(statute_details['Plea Guilty'])
         defendant_dict['statute_trial_guilty'].append(statute_details['Trial Guilty'])
         defendant_dict['statute_trial_ng'].append(statute_details['Trial NG'])
-        defendant_dict['statute_fines'].append(statute_details['Fines'])
+        defendant_dict['statute_fines'].append(sub("[$,]", "", str(statute_details['Fines']))) #scrub '$' and ',' from data. This is not a list object.
         defendant_dict['statute_months_sentenced'].append(statute_details['Months Sentenced'])
         defendant_dict['statute_months_probation'].append(statute_details['Months Probation'])
 
@@ -110,7 +130,7 @@ for case_id in json_data:
         defendant_dict['year_terminated'].append(sentence_details['Year Terminated'])
         defendant_dict['total_months_sentenced'].append(sentence_details['Months Sentenced'])
         defendant_dict['total_months_probation'].append(sentence_details['Months Probation'])
-        defendant_dict['restitution'].append(sentence_details['Restitution'])
+        defendant_dict['restitution'].append(sub("[^\d\.]", "", str(sentence_details['Restitution']))) #scrub '$' and ',' from data
         defendant_dict['forfeiture_charge'].append(sentence_details['Charged with Forfeiture'])
         defendant_dict['forfeiture_sentence'].append(sentence_details['Sentenced with Forfeiture'])
 
